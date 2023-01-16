@@ -1,7 +1,7 @@
 #include <iostream>
 using namespace std;
 
-int pat11(int n)
+int pattern11(int n)
 {
     int i = 1;
 
@@ -19,7 +19,7 @@ int pat11(int n)
     return 0;
 }
 
-int pat12(int n)
+int pattern12(int n)
 {
     int i = 1;
 
@@ -37,7 +37,7 @@ int pat12(int n)
     return 0;
 }
 
-int pat13(int n)
+int pattern13(int n)
 {
     int i = 1;
 
@@ -55,7 +55,7 @@ int pat13(int n)
     return 0;
 }
 
-int pat21(int n)
+int pattern21(int n)
 {
     int i = 1;
 
@@ -73,7 +73,7 @@ int pat21(int n)
     return 0;
 }
 
-int pat22(int n)
+int pattern22(int n)
 {
     int i = 1;
     while (i <= n)
@@ -88,7 +88,7 @@ int pat22(int n)
     }
     return 0;
 }
-int pat31(int n)
+int pattern31(int n)
 {
     int i = 1;
 
@@ -105,7 +105,7 @@ int pat31(int n)
     }
     return 0;
 }
-int pat32(int n)
+int pattern32(int n)
 {
     int i = 1;
 
@@ -122,7 +122,7 @@ int pat32(int n)
     }
     return 0;
 }
-int pat41(int n)
+int pattern41(int n)
 {
     int i = 1;
 
@@ -140,7 +140,7 @@ int pat41(int n)
     return 0;
 }
 
-int pat51(int n){
+int pattern51(int n){
     int i=1;
     int count=0;
     while (i<=n)
@@ -162,22 +162,22 @@ int main()
 {
     int n = 5;
     // cout << "\ni=1, j=1, *" << endl;
-    // pat11(n);
+    // pattern11(n);
     // cout << "\ni=1, j=1, i" << endl;
-    // pat12(n);
+    // pattern12(n);
     // cout << "\ni=1, j=1, j" << endl;
-    // pat13(n);
+    // pattern13(n);
     // cout << "\ni=1, j=i, i" << endl;
-    // pat21(n);
+    // pattern21(n);
     // cout << "\ni=1, j=i, j" << endl;
-    // pat22(n);
+    // pattern22(n);
     // cout << "\ni=1, j=1, i+1" << endl;
-    // pat31(n);
+    // pattern31(n);
     // cout << "\ni=1, j=1, j+1" << endl;
-    // pat32(n);
+    // pattern32(n);
     // cout << "\ni=1, j=1, i+j" << endl;
-    // pat41(n);
+    // pattern41(n);
 
     cout << "\ni=1, j=1, count" << endl;
-    pat11(n);
+    pattern11(n);
 }
